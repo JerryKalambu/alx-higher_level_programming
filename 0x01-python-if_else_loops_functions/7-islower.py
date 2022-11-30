@@ -1,5 +1,5 @@
-#!?usr/bin/python3
-#Author - Jerry Kalambu
+#!/usr/bin/python3
+# Author - Jerry Kalambu
 
 def islower(c):
     """Function checks for lowercase characters."""
