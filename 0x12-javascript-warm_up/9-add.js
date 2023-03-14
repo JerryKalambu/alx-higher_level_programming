@@ -1,7 +1,8 @@
 #!/usr/bin/node
+const myArgs = process.argv.splice(2);
+const num1 = Number(myArgs[0]);
+const num2 = Number(myArgs[1]);
 function add (a, b) {
-  const c = a + b;
-  console.log(c);
+  return (a + b);
 }
-
-add(Number(process.argv[2]), Number(process.argv[3]));
+console.log(add(num1, num2));
